@@ -9,7 +9,7 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ## Requirements to use the cookiecutter template:
 To make sure, that the required python version is installed, we will use conda for enviroment creation, but Poetry for managing dependecies. 
 
-The use the template properly, you need to have ...
+To use the template properly, you must have ...
  - ... *Poetry* installed. Follow the instructions [here](https://python-poetry.org/docs/#installation) to install Poetry.
  - ... *Anaconda* or *[miniconda](https://docs.conda.io/en/latest/miniconda.html)* installed
  - ... the [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) installed in a enviroment (in a extra one is recommended): 
