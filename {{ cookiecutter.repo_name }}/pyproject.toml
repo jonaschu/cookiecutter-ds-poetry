@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "0.1.0"
+description = "{{ cookiecutter.description }}"
+authors = ["{{ cookiecutter.author_name }}"]
+readme = "README.md"
+packages = [{include = "{{ cookiecutter.package_name }}"}]
+
+[tool.poetry.dependencies]
+python = "^{{ cookiecutter.python_version }}"
+python-dotenv = "^1.0"
+ipykernel = "^6.24.0"
